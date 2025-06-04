@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\D\u1EF1 \u00C1n M\u1EABu\\DuAnMau\\duanmau1\\duanmau1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CA03A4-3E2D-4026-B005-9858D97A9747}|duanmau1\\duanmau1.csproj|c:\\users\\pc\\desktop\\d\u1EF1 \u00E1n m\u1EABu\\duanmau\\duanmau1\\duanmau1\\duanmau1\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6CA03A4-3E2D-4026-B005-9858D97A9747}|duanmau1\\duanmau1.csproj|solutionrelative:duanmau1\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_trangchu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\D\u1EF1 \u00C1n M\u1EABu\\DuAnMau\\duanmau1\\duanmau1\\duanmau1\\frm_trangchu.cs",
+              "RelativeDocumentMoniker": "duanmau1\\frm_trangchu.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\D\u1EF1 \u00C1n M\u1EABu\\DuAnMau\\duanmau1\\duanmau1\\duanmau1\\frm_trangchu.cs [Design]*",
+              "RelativeToolTip": "duanmau1\\frm_trangchu.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T05:12:18.225Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

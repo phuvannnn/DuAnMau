@@ -29,9 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.gunabtn_TrangChu = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_ = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_phong = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btn_caiDat = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_soNuoc = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_cocPhong = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_tinhTien = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_soDien = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_dichVu = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_phong = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_TrangChu = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -40,64 +45,166 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Controls.Add(this.btn_);
-            this.panel1.Controls.Add(this.gunabtn_TrangChu);
+            this.panel1.Controls.Add(this.btn_caiDat);
+            this.panel1.Controls.Add(this.btn_soNuoc);
+            this.panel1.Controls.Add(this.btn_cocPhong);
+            this.panel1.Controls.Add(this.btn_tinhTien);
+            this.panel1.Controls.Add(this.btn_soDien);
+            this.panel1.Controls.Add(this.btn_dichVu);
+            this.panel1.Controls.Add(this.btn_phong);
+            this.panel1.Controls.Add(this.btn_TrangChu);
             this.panel1.Controls.Add(this.guna2PictureBox1);
             this.panel1.Location = new System.Drawing.Point(-4, -4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(317, 861);
             this.panel1.TabIndex = 0;
             // 
-            // gunabtn_TrangChu
+            // btn_caiDat
             // 
-            this.gunabtn_TrangChu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.gunabtn_TrangChu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.gunabtn_TrangChu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.gunabtn_TrangChu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.gunabtn_TrangChu.FillColor = System.Drawing.Color.Black;
-            this.gunabtn_TrangChu.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gunabtn_TrangChu.ForeColor = System.Drawing.Color.White;
-            this.gunabtn_TrangChu.Location = new System.Drawing.Point(3, 236);
-            this.gunabtn_TrangChu.Name = "gunabtn_TrangChu";
-            this.gunabtn_TrangChu.Size = new System.Drawing.Size(314, 53);
-            this.gunabtn_TrangChu.TabIndex = 25;
-            this.gunabtn_TrangChu.Text = "Trang Chủ";
+            this.btn_caiDat.BorderColor = System.Drawing.Color.White;
+            this.btn_caiDat.BorderRadius = 1;
+            this.btn_caiDat.BorderThickness = 1;
+            this.btn_caiDat.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_caiDat.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_caiDat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_caiDat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_caiDat.FillColor = System.Drawing.Color.Black;
+            this.btn_caiDat.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_caiDat.ForeColor = System.Drawing.Color.White;
+            this.btn_caiDat.Image = global::duanmau1.Properties.Resources.settings;
+            this.btn_caiDat.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_caiDat.Location = new System.Drawing.Point(-5, 751);
+            this.btn_caiDat.Name = "btn_caiDat";
+            this.btn_caiDat.Size = new System.Drawing.Size(329, 107);
+            this.btn_caiDat.TabIndex = 32;
+            this.btn_caiDat.Text = " Cài Đặt";
+            this.btn_caiDat.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
             // 
-            // btn_
+            // btn_soNuoc
             // 
-            this.btn_.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_.FillColor = System.Drawing.Color.Black;
-            this.btn_.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_.ForeColor = System.Drawing.Color.White;
-            this.btn_.Location = new System.Drawing.Point(3, 295);
-            this.btn_.Name = "btn_";
-            this.btn_.Size = new System.Drawing.Size(314, 53);
-            this.btn_.TabIndex = 26;
-            this.btn_.Text = "Phòng ";
-            this.btn_.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
+            this.btn_soNuoc.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_soNuoc.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_soNuoc.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_soNuoc.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_soNuoc.FillColor = System.Drawing.Color.Black;
+            this.btn_soNuoc.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_soNuoc.ForeColor = System.Drawing.Color.White;
+            this.btn_soNuoc.Image = global::duanmau1.Properties.Resources.water;
+            this.btn_soNuoc.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_soNuoc.Location = new System.Drawing.Point(3, 472);
+            this.btn_soNuoc.Name = "btn_soNuoc";
+            this.btn_soNuoc.Size = new System.Drawing.Size(314, 53);
+            this.btn_soNuoc.TabIndex = 29;
+            this.btn_soNuoc.Text = " Chỉ Số Nước";
+            this.btn_soNuoc.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
+            // 
+            // btn_cocPhong
+            // 
+            this.btn_cocPhong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_cocPhong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_cocPhong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_cocPhong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_cocPhong.FillColor = System.Drawing.Color.Black;
+            this.btn_cocPhong.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_cocPhong.ForeColor = System.Drawing.Color.White;
+            this.btn_cocPhong.Image = global::duanmau1.Properties.Resources._lock;
+            this.btn_cocPhong.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_cocPhong.Location = new System.Drawing.Point(3, 590);
+            this.btn_cocPhong.Name = "btn_cocPhong";
+            this.btn_cocPhong.Size = new System.Drawing.Size(314, 53);
+            this.btn_cocPhong.TabIndex = 31;
+            this.btn_cocPhong.Text = " Cọc Giữ Phòng";
+            this.btn_cocPhong.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
+            // 
+            // btn_tinhTien
+            // 
+            this.btn_tinhTien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_tinhTien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_tinhTien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_tinhTien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_tinhTien.FillColor = System.Drawing.Color.Black;
+            this.btn_tinhTien.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_tinhTien.ForeColor = System.Drawing.Color.White;
+            this.btn_tinhTien.Image = global::duanmau1.Properties.Resources.card;
+            this.btn_tinhTien.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_tinhTien.Location = new System.Drawing.Point(5, 531);
+            this.btn_tinhTien.Name = "btn_tinhTien";
+            this.btn_tinhTien.Size = new System.Drawing.Size(314, 53);
+            this.btn_tinhTien.TabIndex = 30;
+            this.btn_tinhTien.Text = " Tính Tiền";
+            this.btn_tinhTien.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
+            // 
+            // btn_soDien
+            // 
+            this.btn_soDien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_soDien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_soDien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_soDien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_soDien.FillColor = System.Drawing.Color.Black;
+            this.btn_soDien.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_soDien.ForeColor = System.Drawing.Color.White;
+            this.btn_soDien.Image = global::duanmau1.Properties.Resources.lightning;
+            this.btn_soDien.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_soDien.Location = new System.Drawing.Point(3, 413);
+            this.btn_soDien.Name = "btn_soDien";
+            this.btn_soDien.Size = new System.Drawing.Size(314, 53);
+            this.btn_soDien.TabIndex = 28;
+            this.btn_soDien.Text = " Chỉ Số Điện";
+            this.btn_soDien.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
+            // 
+            // btn_dichVu
+            // 
+            this.btn_dichVu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_dichVu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_dichVu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_dichVu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_dichVu.FillColor = System.Drawing.Color.Black;
+            this.btn_dichVu.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_dichVu.ForeColor = System.Drawing.Color.White;
+            this.btn_dichVu.Image = global::duanmau1.Properties.Resources.customer;
+            this.btn_dichVu.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_dichVu.Location = new System.Drawing.Point(3, 354);
+            this.btn_dichVu.Name = "btn_dichVu";
+            this.btn_dichVu.Size = new System.Drawing.Size(314, 53);
+            this.btn_dichVu.TabIndex = 27;
+            this.btn_dichVu.Text = " Dịch Vụ";
+            this.btn_dichVu.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
             // 
             // btn_phong
             // 
             this.btn_phong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_phong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_phong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_phong.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_phong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_phong.DisabledState.Image = global::duanmau1.Properties.Resources.compass;
-            this.btn_phong.FillColor = System.Drawing.Color.Transparent;
-            this.btn_phong.FillColor2 = System.Drawing.Color.Transparent;
-            this.btn_phong.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btn_phong.FillColor = System.Drawing.Color.Black;
+            this.btn_phong.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_phong.ForeColor = System.Drawing.Color.White;
-            this.btn_phong.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_phong.Location = new System.Drawing.Point(459, 381);
+            this.btn_phong.Image = global::duanmau1.Properties.Resources.home;
+            this.btn_phong.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_phong.Location = new System.Drawing.Point(3, 295);
             this.btn_phong.Name = "btn_phong";
-            this.btn_phong.Size = new System.Drawing.Size(317, 57);
-            this.btn_phong.TabIndex = 27;
-            this.btn_phong.Text = "Phòng";
-            this.btn_phong.Click += new System.EventHandler(this.btn_phong_Click);
+            this.btn_phong.Size = new System.Drawing.Size(314, 53);
+            this.btn_phong.TabIndex = 26;
+            this.btn_phong.Text = " Phòng ";
+            this.btn_phong.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
+            // 
+            // btn_TrangChu
+            // 
+            this.btn_TrangChu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_TrangChu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_TrangChu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_TrangChu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_TrangChu.FillColor = System.Drawing.Color.Black;
+            this.btn_TrangChu.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_TrangChu.ForeColor = System.Drawing.Color.White;
+            this.btn_TrangChu.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_TrangChu.Image = global::duanmau1.Properties.Resources.compass1png;
+            this.btn_TrangChu.ImageSize = new System.Drawing.Size(25, 25);
+            this.btn_TrangChu.Location = new System.Drawing.Point(3, 236);
+            this.btn_TrangChu.Name = "btn_TrangChu";
+            this.btn_TrangChu.Size = new System.Drawing.Size(314, 53);
+            this.btn_TrangChu.TabIndex = 25;
+            this.btn_TrangChu.Text = " Trang Chủ";
             // 
             // guna2PictureBox1
             // 
@@ -116,7 +223,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1482, 853);
-            this.Controls.Add(this.btn_phong);
             this.Controls.Add(this.panel1);
             this.Name = "frm_trangchu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -130,9 +236,14 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2Button gunabtn_TrangChu;
+        private Guna.UI2.WinForms.Guna2Button btn_TrangChu;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2Button btn_;
-        private Guna.UI2.WinForms.Guna2GradientButton btn_phong;
+        private Guna.UI2.WinForms.Guna2Button btn_phong;
+        private Guna.UI2.WinForms.Guna2Button btn_dichVu;
+        private Guna.UI2.WinForms.Guna2Button btn_caiDat;
+        private Guna.UI2.WinForms.Guna2Button btn_cocPhong;
+        private Guna.UI2.WinForms.Guna2Button btn_tinhTien;
+        private Guna.UI2.WinForms.Guna2Button btn_soNuoc;
+        private Guna.UI2.WinForms.Guna2Button btn_soDien;
     }
 }
