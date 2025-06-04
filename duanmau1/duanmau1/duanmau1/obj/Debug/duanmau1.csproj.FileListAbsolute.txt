@@ -1,0 +1,30 @@
+D:\c#2\duanmau1\duanmau1\bin\Debug\duanmau1.exe.config
+D:\c#2\duanmau1\duanmau1\bin\Debug\duanmau1.exe
+D:\c#2\duanmau1\duanmau1\bin\Debug\duanmau1.pdb
+D:\c#2\duanmau1\duanmau1\bin\Debug\Guna.UI2.dll
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.AssemblyReference.cache
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.Frm_dangnhap.resources
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.Properties.Resources.resources
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.GenerateResource.cache
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.CoreCompileInputs.cache
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.Up2Date
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.exe
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.pdb
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.frm_taikhoan.resources
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.frm_quenmatkhau.resources
+D:\c#2\duanmau1\duanmau1\obj\Debug\duanmau1.frm_trangchu.resources
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\bin\Debug\duanmau1.exe.config
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\bin\Debug\duanmau1.exe
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\bin\Debug\duanmau1.pdb
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\bin\Debug\Guna.UI2.dll
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.Frm_dangnhap.resources
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.frm_quenmatkhau.resources
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.frm_taikhoan.resources
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.frm_trangchu.resources
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.Properties.Resources.resources
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.Up2Date
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.exe
+C:\Users\PC\Desktop\Dự Án Mẫu\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.pdb
