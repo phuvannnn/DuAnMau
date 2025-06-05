@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yoola\\source\\repos\\DuAnMau\\duanmau1\\duanmau1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6CA03A4-3E2D-4026-B005-9858D97A9747}|duanmau1\\duanmau1.csproj|c:\\users\\yoola\\source\\repos\\duanmau\\duanmau1\\duanmau1\\duanmau1\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6CA03A4-3E2D-4026-B005-9858D97A9747}|duanmau1\\duanmau1.csproj|solutionrelative:duanmau1\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6CA03A4-3E2D-4026-B005-9858D97A9747}|duanmau1\\duanmau1.csproj|C:\\Users\\yoola\\source\\repos\\DuAnMau\\duanmau1\\duanmau1\\duanmau1\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A6CA03A4-3E2D-4026-B005-9858D97A9747}|duanmau1\\duanmau1.csproj|solutionrelative:duanmau1\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CA03A4-3E2D-4026-B005-9858D97A9747}|duanmau1\\duanmau1.csproj|c:\\users\\yoola\\source\\repos\\duanmau\\duanmau1\\duanmau1\\duanmau1\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CA03A4-3E2D-4026-B005-9858D97A9747}|duanmau1\\duanmau1.csproj|solutionrelative:duanmau1\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6CA03A4-3E2D-4026-B005-9858D97A9747}|duanmau1\\duanmau1.csproj|C:\\Users\\yoola\\source\\repos\\DuAnMau\\duanmau1\\duanmau1\\duanmau1\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frm_trangchu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\yoola\\source\\repos\\DuAnMau\\duanmau1\\duanmau1\\duanmau1\\frm_trangchu.cs",
               "RelativeDocumentMoniker": "duanmau1\\frm_trangchu.cs",
@@ -54,7 +54,8 @@
               "RelativeToolTip": "duanmau1\\Frm_dangnhap.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAqwCwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T12:38:44.636Z"
+              "WhenOpened": "2025-06-05T12:38:44.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -65,17 +66,18 @@
               "ToolTip": "C:\\Users\\yoola\\source\\repos\\DuAnMau\\duanmau1\\duanmau1\\duanmau1\\Frm_dangnhap.cs [Design]",
               "RelativeToolTip": "duanmau1\\Frm_dangnhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T12:36:57.635Z"
+              "WhenOpened": "2025-06-05T12:36:57.635Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frm_trangchu.cs",
               "DocumentMoniker": "C:\\Users\\yoola\\source\\repos\\DuAnMau\\duanmau1\\duanmau1\\duanmau1\\frm_trangchu.cs",
               "RelativeDocumentMoniker": "duanmau1\\frm_trangchu.cs",
               "ToolTip": "C:\\Users\\yoola\\source\\repos\\DuAnMau\\duanmau1\\duanmau1\\duanmau1\\frm_trangchu.cs",
               "RelativeToolTip": "duanmau1\\frm_trangchu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAYwIMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T01:15:42.114Z",
               "EditorCaption": ""

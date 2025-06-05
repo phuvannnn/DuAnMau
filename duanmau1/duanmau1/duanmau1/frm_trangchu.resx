@@ -117,4 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="guna2Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAHIAAABxCAYAAAAJSffTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cwAAEnMBjCK5BwAABDFJREFUeF7t3M0rbVEYx3FTFJkpEwplZsDE0B9gohRToZT/goG/woTyMmDEn6Ak
+        E8lQRF5SjCQvLfc5d6069LC3s9fb7/F861f3rtPde9enkzq4Tf8yOhFjD3V4Yw91eGMPdXhjD3V4Yw91
+        eGMPdXhjD3V4Yw91eGMPP627u9vMzs6a6elpXcTNzc2Z0dFR1oQZe/hp4+PjRkvT5uYma8KMPfw0hUyX
+        QgpJIYWkkEJSSCEppJAUUkgKKSSFFJJCCkkhhaSQQlJIISmkkBRSSAopJIUUkkIKSSGFBA/5/v5u/5RP
+        KZ4JGvLq6spMTEyYo6Mje5K+p6en2k+27ezs2JM4wULe3t6akZGR2n17enrM8fGxfSVdz8/PZmpqqvZM
+        bW1tZm9vz74SPkjIekS31Jj1iG4xMeEgOUS3VJgcolt7e3sUTCjInxDdYmP+hOgW450JA1kG0S0WZhlE
+        t9CYEJA3NzelEd1CY/4G0Y0wd3d37RX8BgE5MzPD3q9ooTAbQXSjX3S6u7uzV/IXBOTZ2ZkZHBxk71k0
+        35iEODk5yd6raC0tLWZjY8NeyW8wXyMvLi6SY1Z5JzY3N5utrS17Jf/BQFIpMXNGpKAgqRSYuSNScJBU
+        TEwERAoSkoqBiYJIwUJSITGRECloSCoEJhoiBQ9J+cRERKREQFJVMU9OTszb2xskIiUGkqqCOTAwYMbG
+        xtjXipYakRIFSVXBbGQ5IFLiIKlYmLkgUiIhqdCYOSFSYiGpUJi5IVKiISnfmDkiUuIhKV+YuSJSfwKS
+        ury8NMPDw+xzl1lra2v0Hzr+TX8G8vX1tfZ83HOXWWdnpzk9PbVXy68/AVnlY7f6lf2uSYrEQ/pCdMsV
+        UzSkb0S3HDHFQoZCdMsNUyRkaES3nDDFQcZCdMsFUxRkFcSOjg7T29vLvla0HDDFQFZBpE9stre3zfX1
+        dcOfAKXGFAFZFbH+Y7cqH+elxISH9InoQsSEhgyB6ELDhIUkxEZ/K6rsdzGQMCEhQ74Tv4aCCQcZE9GF
+        gAkFmQLRlTsmDGRKRFfOmBCQOSC6csWEgFxYWGDvVzTfiK4qmP39/eb+/t5eyV8QkPv7+6arq4u953cL
+        hehqFHNpaclewW8wXyMPDw9LY4ZGdP0Wc3l52f5L/8FAUmUwYyG6ymKGRKSgIKmfMGMjuoowQyNScJAU
+        h5kK0fUdZgxEChKSqsdMjej6ihkLkYKFpA4ODkxfX59ZX1+3J+k7Pz+vYS4uLtqTOEFDUg8PD9n9B/WP
+        j4/m5eXF/i1O8JDa/xRSSAopJIUUkkIKSSGFpJBCUkghKaSQFFJICikkhRSSQgpJIYWkkEJSSCEppJAU
+        UkgKKSSFFJJXyKGhIbO6umpWVlZ0Ebe2tmbm5+dZE2bsoQ5v7KEOb+yhDm/soQ5v7KEOb+yhDm/soQ5v
+        7KEOak3mAxHKNhYQEFYUAAAAAElFTkSuQmCC
+</value>
+  </data>
 </root>

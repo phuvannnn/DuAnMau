@@ -49,7 +49,10 @@ namespace duanmau1
                                      DoanhThu = d == null ? 0 : d.GiaThue,
                                  };
                     dgv_DanhSachPhong.DataSource = ketQua.ToList();
-                };
+                    dgv_DanhSachPhong.AdvancedCellBorderStyle.Left = DataGridViewAdvancedCellBorderStyle.Single; // Đường dọc bên trái ô
+                    dgv_DanhSachPhong.AdvancedCellBorderStyle.Right = DataGridViewAdvancedCellBorderStyle.Single; // Đường dọc bên phải ô
+                }
+                ;
             }
             catch (Exception ex)
             {
@@ -78,6 +81,9 @@ namespace duanmau1
                                      tongtien= d== null? 0:d.TongTien
                                  };
                     dgv_DanhSachNoTienPhong.DataSource = ketQua.ToList();
+                    dgv_DanhSachNoTienPhong.AdvancedCellBorderStyle.Left = DataGridViewAdvancedCellBorderStyle.Single; // Đường dọc bên trái ô
+                    dgv_DanhSachNoTienPhong.AdvancedCellBorderStyle.Right = DataGridViewAdvancedCellBorderStyle.Single; // Đường dọc bên phải ô
+
                 }
                 ;
             }
@@ -118,5 +124,13 @@ namespace duanmau1
             btn_caiDat.BackColor = SystemColors.Control;
         }
 
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có thực sự muốn thoát không?","Xác nhận",MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
