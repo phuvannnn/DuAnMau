@@ -43,3 +43,18 @@ C:\Users\PC\Desktop\Dự Án Mẫu\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\
 C:\Users\PC\Desktop\Dự Án Mẫu\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.Up2Date
 C:\Users\PC\Desktop\Dự Án Mẫu\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.exe
 C:\Users\PC\Desktop\Dự Án Mẫu\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.pdb
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\bin\Debug\duanmau1.exe.config
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\bin\Debug\duanmau1.exe
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\bin\Debug\duanmau1.pdb
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\bin\Debug\Guna.UI2.dll
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.AssemblyReference.cache
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.Frm_dangnhap.resources
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.frm_quenmatkhau.resources
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.frm_taikhoan.resources
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.frm_trangchu.resources
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.Properties.Resources.resources
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.GenerateResource.cache
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.CoreCompileInputs.cache
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.csproj.Up2Date
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.exe
+C:\Users\yoola\Source\Repos\DuAnMau\duanmau1\duanmau1\duanmau1\obj\Debug\duanmau1.pdb

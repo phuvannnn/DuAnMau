@@ -28,6 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_caiDat = new Guna.UI2.WinForms.Guna2Button();
             this.btn_soNuoc = new Guna.UI2.WinForms.Guna2Button();
@@ -38,8 +44,18 @@
             this.btn_phong = new Guna.UI2.WinForms.Guna2Button();
             this.btn_TrangChu = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pnl_Cha = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnl_Con = new Guna.UI2.WinForms.Guna2Panel();
+            this.dgv_DanhSachNoTienPhong = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.lbl_DanhSachNoTienPhong = new System.Windows.Forms.Label();
+            this.dgv_DanhSachPhong = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.lbl_DanhSachPhong = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.pnl_Cha.SuspendLayout();
+            this.pnl_Con.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DanhSachNoTienPhong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DanhSachPhong)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -69,7 +85,7 @@
             this.btn_caiDat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_caiDat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_caiDat.FillColor = System.Drawing.Color.Black;
-            this.btn_caiDat.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_caiDat.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_caiDat.ForeColor = System.Drawing.Color.White;
             this.btn_caiDat.Image = global::duanmau1.Properties.Resources.settings;
             this.btn_caiDat.ImageSize = new System.Drawing.Size(25, 25);
@@ -87,7 +103,7 @@
             this.btn_soNuoc.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_soNuoc.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_soNuoc.FillColor = System.Drawing.Color.Black;
-            this.btn_soNuoc.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_soNuoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_soNuoc.ForeColor = System.Drawing.Color.White;
             this.btn_soNuoc.Image = global::duanmau1.Properties.Resources.water;
             this.btn_soNuoc.ImageSize = new System.Drawing.Size(25, 25);
@@ -105,7 +121,7 @@
             this.btn_cocPhong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_cocPhong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_cocPhong.FillColor = System.Drawing.Color.Black;
-            this.btn_cocPhong.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_cocPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_cocPhong.ForeColor = System.Drawing.Color.White;
             this.btn_cocPhong.Image = global::duanmau1.Properties.Resources._lock;
             this.btn_cocPhong.ImageSize = new System.Drawing.Size(25, 25);
@@ -123,7 +139,7 @@
             this.btn_tinhTien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_tinhTien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_tinhTien.FillColor = System.Drawing.Color.Black;
-            this.btn_tinhTien.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_tinhTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_tinhTien.ForeColor = System.Drawing.Color.White;
             this.btn_tinhTien.Image = global::duanmau1.Properties.Resources.card;
             this.btn_tinhTien.ImageSize = new System.Drawing.Size(25, 25);
@@ -141,7 +157,7 @@
             this.btn_soDien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_soDien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_soDien.FillColor = System.Drawing.Color.Black;
-            this.btn_soDien.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_soDien.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_soDien.ForeColor = System.Drawing.Color.White;
             this.btn_soDien.Image = global::duanmau1.Properties.Resources.lightning;
             this.btn_soDien.ImageSize = new System.Drawing.Size(25, 25);
@@ -159,7 +175,7 @@
             this.btn_dichVu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_dichVu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_dichVu.FillColor = System.Drawing.Color.Black;
-            this.btn_dichVu.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_dichVu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_dichVu.ForeColor = System.Drawing.Color.White;
             this.btn_dichVu.Image = global::duanmau1.Properties.Resources.customer;
             this.btn_dichVu.ImageSize = new System.Drawing.Size(25, 25);
@@ -177,7 +193,7 @@
             this.btn_phong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_phong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_phong.FillColor = System.Drawing.Color.Black;
-            this.btn_phong.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_phong.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_phong.ForeColor = System.Drawing.Color.White;
             this.btn_phong.Image = global::duanmau1.Properties.Resources.home;
             this.btn_phong.ImageSize = new System.Drawing.Size(25, 25);
@@ -190,12 +206,13 @@
             // 
             // btn_TrangChu
             // 
+            this.btn_TrangChu.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_TrangChu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_TrangChu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_TrangChu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_TrangChu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_TrangChu.FillColor = System.Drawing.Color.Black;
-            this.btn_TrangChu.Font = new System.Drawing.Font("Barlow Condensed ExtraBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_TrangChu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_TrangChu.ForeColor = System.Drawing.Color.White;
             this.btn_TrangChu.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_TrangChu.Image = global::duanmau1.Properties.Resources.compass1png;
@@ -205,6 +222,7 @@
             this.btn_TrangChu.Size = new System.Drawing.Size(314, 53);
             this.btn_TrangChu.TabIndex = 25;
             this.btn_TrangChu.Text = " Trang Chủ";
+            this.btn_TrangChu.Click += new System.EventHandler(this.btn_TrangChu_Click);
             // 
             // guna2PictureBox1
             // 
@@ -217,18 +235,181 @@
             this.guna2PictureBox1.TabIndex = 24;
             this.guna2PictureBox1.TabStop = false;
             // 
+            // pnl_Cha
+            // 
+            this.pnl_Cha.Controls.Add(this.pnl_Con);
+            this.pnl_Cha.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnl_Cha.Location = new System.Drawing.Point(319, 0);
+            this.pnl_Cha.Name = "pnl_Cha";
+            this.pnl_Cha.Size = new System.Drawing.Size(1163, 853);
+            this.pnl_Cha.TabIndex = 1;
+            // 
+            // pnl_Con
+            // 
+            this.pnl_Con.AutoScroll = true;
+            this.pnl_Con.Controls.Add(this.dgv_DanhSachNoTienPhong);
+            this.pnl_Con.Controls.Add(this.lbl_DanhSachNoTienPhong);
+            this.pnl_Con.Controls.Add(this.dgv_DanhSachPhong);
+            this.pnl_Con.Controls.Add(this.lbl_DanhSachPhong);
+            this.pnl_Con.Location = new System.Drawing.Point(7, 12);
+            this.pnl_Con.Name = "pnl_Con";
+            this.pnl_Con.Size = new System.Drawing.Size(1153, 956);
+            this.pnl_Con.TabIndex = 0;
+            // 
+            // dgv_DanhSachNoTienPhong
+            // 
+            this.dgv_DanhSachNoTienPhong.AllowUserToResizeColumns = false;
+            this.dgv_DanhSachNoTienPhong.AllowUserToResizeRows = false;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgv_DanhSachNoTienPhong.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.ControlDark;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_DanhSachNoTienPhong.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            this.dgv_DanhSachNoTienPhong.ColumnHeadersHeight = 4;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_DanhSachNoTienPhong.DefaultCellStyle = dataGridViewCellStyle15;
+            this.dgv_DanhSachNoTienPhong.GridColor = System.Drawing.Color.Black;
+            this.dgv_DanhSachNoTienPhong.Location = new System.Drawing.Point(0, 574);
+            this.dgv_DanhSachNoTienPhong.Name = "dgv_DanhSachNoTienPhong";
+            this.dgv_DanhSachNoTienPhong.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgv_DanhSachNoTienPhong.RowHeadersVisible = false;
+            this.dgv_DanhSachNoTienPhong.RowHeadersWidth = 51;
+            this.dgv_DanhSachNoTienPhong.RowTemplate.Height = 24;
+            this.dgv_DanhSachNoTienPhong.Size = new System.Drawing.Size(1145, 304);
+            this.dgv_DanhSachNoTienPhong.TabIndex = 3;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.GridColor = System.Drawing.Color.Black;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.HeaderStyle.Height = 4;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.ReadOnly = false;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.RowsStyle.Height = 24;
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgv_DanhSachNoTienPhong.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // lbl_DanhSachNoTienPhong
+            // 
+            this.lbl_DanhSachNoTienPhong.AutoSize = true;
+            this.lbl_DanhSachNoTienPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_DanhSachNoTienPhong.ForeColor = System.Drawing.Color.White;
+            this.lbl_DanhSachNoTienPhong.Location = new System.Drawing.Point(49, 531);
+            this.lbl_DanhSachNoTienPhong.Name = "lbl_DanhSachNoTienPhong";
+            this.lbl_DanhSachNoTienPhong.Size = new System.Drawing.Size(233, 22);
+            this.lbl_DanhSachNoTienPhong.TabIndex = 2;
+            this.lbl_DanhSachNoTienPhong.Text = "Danh sách nợ tiền phòng";
+            // 
+            // dgv_DanhSachPhong
+            // 
+            this.dgv_DanhSachPhong.AllowUserToResizeColumns = false;
+            this.dgv_DanhSachPhong.AllowUserToResizeRows = false;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgv_DanhSachPhong.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.ControlDark;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_DanhSachPhong.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            this.dgv_DanhSachPhong.ColumnHeadersHeight = 4;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_DanhSachPhong.DefaultCellStyle = dataGridViewCellStyle18;
+            this.dgv_DanhSachPhong.GridColor = System.Drawing.Color.Black;
+            this.dgv_DanhSachPhong.Location = new System.Drawing.Point(5, 51);
+            this.dgv_DanhSachPhong.Name = "dgv_DanhSachPhong";
+            this.dgv_DanhSachPhong.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgv_DanhSachPhong.RowHeadersVisible = false;
+            this.dgv_DanhSachPhong.RowHeadersWidth = 51;
+            this.dgv_DanhSachPhong.RowTemplate.Height = 24;
+            this.dgv_DanhSachPhong.Size = new System.Drawing.Size(1145, 433);
+            this.dgv_DanhSachPhong.TabIndex = 1;
+            this.dgv_DanhSachPhong.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgv_DanhSachPhong.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgv_DanhSachPhong.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgv_DanhSachPhong.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgv_DanhSachPhong.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgv_DanhSachPhong.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dgv_DanhSachPhong.ThemeStyle.GridColor = System.Drawing.Color.Black;
+            this.dgv_DanhSachPhong.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dgv_DanhSachPhong.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgv_DanhSachPhong.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgv_DanhSachPhong.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgv_DanhSachPhong.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgv_DanhSachPhong.ThemeStyle.HeaderStyle.Height = 4;
+            this.dgv_DanhSachPhong.ThemeStyle.ReadOnly = false;
+            this.dgv_DanhSachPhong.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgv_DanhSachPhong.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgv_DanhSachPhong.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgv_DanhSachPhong.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgv_DanhSachPhong.ThemeStyle.RowsStyle.Height = 24;
+            this.dgv_DanhSachPhong.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgv_DanhSachPhong.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // lbl_DanhSachPhong
+            // 
+            this.lbl_DanhSachPhong.AutoSize = true;
+            this.lbl_DanhSachPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_DanhSachPhong.ForeColor = System.Drawing.Color.White;
+            this.lbl_DanhSachPhong.Location = new System.Drawing.Point(49, 14);
+            this.lbl_DanhSachPhong.Name = "lbl_DanhSachPhong";
+            this.lbl_DanhSachPhong.Size = new System.Drawing.Size(166, 22);
+            this.lbl_DanhSachPhong.TabIndex = 0;
+            this.lbl_DanhSachPhong.Text = "Danh sách phòng";
+            // 
             // frm_trangchu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1482, 853);
+            this.Controls.Add(this.pnl_Cha);
             this.Controls.Add(this.panel1);
             this.Name = "frm_trangchu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_trangchu";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.pnl_Cha.ResumeLayout(false);
+            this.pnl_Con.ResumeLayout(false);
+            this.pnl_Con.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DanhSachNoTienPhong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DanhSachPhong)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -245,5 +426,11 @@
         private Guna.UI2.WinForms.Guna2Button btn_tinhTien;
         private Guna.UI2.WinForms.Guna2Button btn_soNuoc;
         private Guna.UI2.WinForms.Guna2Button btn_soDien;
+        private Guna.UI2.WinForms.Guna2Panel pnl_Cha;
+        private Guna.UI2.WinForms.Guna2Panel pnl_Con;
+        private System.Windows.Forms.Label lbl_DanhSachPhong;
+        private System.Windows.Forms.Label lbl_DanhSachNoTienPhong;
+        private Guna.UI2.WinForms.Guna2DataGridView dgv_DanhSachPhong;
+        private Guna.UI2.WinForms.Guna2DataGridView dgv_DanhSachNoTienPhong;
     }
 }
